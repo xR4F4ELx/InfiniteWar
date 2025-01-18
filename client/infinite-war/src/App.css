@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +41,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.DragDropItems {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.DragZone {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: lightyellow;
+  border: 2px dashed #000;
 }
